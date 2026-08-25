@@ -1,7 +1,7 @@
 [project]
 name = "consultbae-ai-automation"
 version = "0.1.0"
-description = "Add your description here"
+description = "ConsultBae AI Automation Take-Home Assignment"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
@@ -11,3 +11,7 @@ dependencies = [
     "sqlalchemy>=2.0.52",
     "streamlit>=1.62.0",
 ]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
